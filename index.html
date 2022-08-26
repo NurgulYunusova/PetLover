@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <title>PetLover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- GREEN HEADER SECTION -->
+
+    <div class="green-header">
+        <ul class="left-side">
+            <li><a href="#">FAQs</a></li>
+            <span>|</span>
+            <li><a href="#">Help</a></li>
+            <span>|</span>
+            <li><a href="#">Support</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="#"><i class="fab fa-facebook-f brdrght"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter brdrght"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in brdrght"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram brdrght"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- NAME HEADER SECTION -->
+
+    <div class="name-header">
+        <div class="leftt-side">
+            <p class="name"><a href="#"><b><span class="orange">Pet</span>Lover</b></a></p>
+        </div>
+        <div class="rightt-side">
+            <div class="two text">
+                <p class="center"><b>Opening Hours</b></p>
+                <p class="greyy">8.00AM - 9.00PM</p>
+            </div>
+            <div class="two text">
+                <p class="center"><b>Email Us</b></p>
+                <p class="greyy">mail@domain.com</p>
+            </div>
+            <div class="two textt">
+                <p class="center"><b>Call Us</b></p>
+                <p class="greyy">+012 345 6789</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION BAR SECTION -->
+
+    <div class="nav-bar">
+        <div class="nav-section">
+            <ul>
+                <li class="bg-orange first-menu-list"><a href="#" style="color: black;">Home</a></li>
+                <li class="first-menu-list"><a href="#about">About</a></li>
+                <li class="first-menu-list"><a href="#service">Service</a></li>
+                <li class="first-menu-list"><a href="#price">Price</a></li>
+                <li class="first-menu-list"><a href="#booking">Booking</a></li>
+                <li class="dropdown first-menu-list"><a href="#pages" class="dropbtn">Pages &#9207</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="#">Blog Grid</a></li>
+                            <li><a href="#">Blog Detail</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="first-menu-list"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <button class="quote"><a href="#">Get Quote</a></button>
+    </div>
+
+    <!-- SLIDESHOW CONTAINER SECTION -->
+
+    <div class="slideshow-container">
+        <div class="myslides img-1">
+            <img src="./Images/cat.jpg" alt="Cat">
+            <div class="text-area">
+                <h2>Best Pet Services</h2>
+                <h1>Keep Your Pet Happy</h1>
+                <p>Duo nonumy et dolor tempor no et. Diam sit diam sit diam erat</p>
+                <button class="book"><a href="#">Book Now</a></button>
+                <button class="learn"><a href="#">Learn More</a></button>
+            </div>
+        </div>
+        <div class="myslides img-2">
+            <img src="./Images/dog.jpg" alt="Dog">
+            <div class="text-area">
+                <h2>Best Pet Services</h2>
+                <h1>Pet Spa & Grooming</h1>
+                <p>Duo nonumy et dolor tempor no et. Diam sit diam sit diam erat</p>
+                <button class="book"><a href="#">Book Now</a></button>
+                <button class="learn"><a href="#">Learn More</a></button>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <!-- BOOK NOW SECTION -->
+
+		<div class="scroll-to-up-click" id="booking">
+			<button onclick="topFunction()" title="Go to top" id="myBtn">
+				<i class="fa fa-angle-up"></i>
+			</button>
+		</div>
+
+    <div class="book-now-section">
+        <div class="left-form">
+            <form class="bn-sctn">
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name">
+                <label for="email">Your Email</label><br>
+                <input type="email" id="email">
+                <label for="date">Reservation Date</label><br>
+                <input type="date" id="date">
+                <label for="time">Reservation Time</label><br>
+                <input type="time" id="time">
+                <input type="submit" value="Book Now">
+            </form>
+        </div>
+        <div class="right-book-section">
+            <h3 class="go-vacation">Going for a vacation?</h3>
+            <h1 class="book-for-pet">Book For <span class="orange-text">Your Pet</span></h1>
+            <p class="book-section-txt">Labore vero lorem eos sed aliquy ipsum aliquy sed. Vero dolore dolore takima ipsum lorem rebum</p>
+            <div class="four-section">
+                <div class="one-sectionn">
+                    <div class="top-sctn">
+                        <img src="./Images/pet-shelter.png" alt="Pet Boarding" class="about-pets">
+                        <h5 class="pet">Pet Boarding</h5>
+                    </div>
+                    <div class="bottom-sctn">
+                        <p class="text-pets">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet</p>
+                    </div>
+                </div>
+                <div class="two-sectionn">
+                    <div class="top-sctn">
+                        <img src="./Images/treat.png" alt="Pet Feeding" class="about-pets">
+                        <h5 class="pet">Pet Feeding</h5>
+                    </div>
+                    <div class="bottom-sctn">
+                        <p class="text-pets">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet</p>
+                    </div>
+                </div>
+                <div class="three-sectionn">
+                    <div class="top-sctn">
+                        <img src="./Images/grooming.png" alt="Pet Grooming" class="about-pets">
+                        <h5 class="pet">Pet Grooming</h5>
+                    </div>
+                    <div class="bottom-sctn">
+                        <p class="text-pets">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet</p>
+                    </div>
+                </div>
+                <div class="four-sectionn">
+                    <div class="top-sctn">
+                        <img src="./Images/toy.png" alt="Pet Tranning" class="about-pets">
+                        <h5 class="pet">Pet Tranning</h5>
+                    </div>
+                    <div class="bottom-sctn">
+                        <p class="text-pets">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT US SECTION -->
+
+    <div class="about-us-section" id="about">
+        <div class="left-about-sctn">
+            <h4 class="green-heading">About Us</h4>
+            <h1><span class="orange">Boarding</span> & <span class="green">Daycare</span></h1>
+            <p class="about-sctn-text1">Amet stet amet ut. Sit no vero vero no dolor. Sed erat ut sea. Just clita ut stet kasd at diam sit erat vero sit.</p>
+            <p class="about-sctn-text2">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+            <ul class="checks">
+                <li><i class="fa fa-check-double"></i>Best In Industry</li>
+                <li><i class="fa fa-check-double"></i>Emergency Services</li>
+                <li><i class="fa fa-check-double"></i>24/7 Customer Support</li>
+            </ul>
+            <button class="book lrnmr"><a href="#">Learn More</a></button>
+        </div>
+        <div class="right-photos-sctn">
+            <img src="./Images/sittingdog.jpg" alt="Sitting Dog" class="sittingdog">
+            <div class="row-photos">
+                <img src="./Images/dogs.jpg" alt="Dogs" class="dogs">
+                <img src="./Images/cats.jpg" alt="Cats" class="cats">
+            </div>
+        </div>
+    </div>
+
+    <!-- PREMIUM SERVICES SECTION -->
+
+    <div class="premium-services" id="service">
+        <h4 class="green-heading">Our Services</h4>
+        <h1><span class="orange">Premium</span> Pet Services</h1>
+        <div class="six-cards">
+            <div class="three-cards-row">
+                <div class="card">
+                    <img src="./Images/pet-shelter.png" alt="Pet Boarding" class="about-pets1">
+                    <h3>Pet Boarding</h3>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="./Images/treat.png" alt="Pet Feeding" class="about-pets1">
+                    <h3>Pet Feeding</h3>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="./Images/grooming.png" alt="Pet Grooming" class="about-pets1">
+                    <h3>Pet Grooming</h3>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="three-cards-row">
+                <div class="card">
+                    <img src="./Images/cat-icon.png" alt="Pet Training" class="about-pets1">
+                    <h3>Pet Training</h3>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="./Images/dog-icon.png" alt="Pet Exercise" class="about-pets1">
+                    <h3>Pet Exercise</h3>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="./Images/vaccine.png" alt="Pet Treatment" class="about-pets1">
+                    <h3>Pet Treatment</h3>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHY CHOOSE US SECTION -->
+
+    <div class="why-choose-us">
+        <div class="left-img">
+            <img src="./Images/girl-with-dog.jpg" alt="Girl with dog">
+        </div>
+        <div class="right-texts">
+            <h4 class="green-heading">Why Choose Us?</h4>
+            <h1><span class="orange">Special Care</span> On Pets</h1>
+            <p>Dolor lorem lorem ipsum sit et ipsum. Sadip sea amet diam sed ut vero no sit. Et elitr stet sed sit sed kasd. Erat duo eos et erat sed diam duo</p>
+            <div class="four-icon-texts">
+                <div class="first-row">
+                    <div class="icon-text">
+                        <img src="./Images/cat-icon.png" alt="Cat Icon" class="about-pets">
+                        <h2>Best In Industry</h2>
+                    </div>
+                    <div class="icon-text">
+                        <img src="./Images/doctor.png" alt="Doctor" class="about-pets">
+                        <h2>Emergency Services</h2>
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="icon-text">
+                        <img src="./Images/care.png" alt="Care" class="about-pets">
+                        <h2>Special Care</h2>
+                    </div>
+                    <div class="icon-text">
+                        <img src="./Images/dog-icon.png" alt="Dog" class="about-pets">
+                        <h2>Customer Support</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRICING PLAN SECTION -->
+    
+    <div class="pricing-plan" id="price">
+        <div class="pricing-plan-head">
+            <h4 class="green-heading">Pricing Plan</h4>
+            <h1>Choose the <span class="orange">Best Price</span></h1> 
+        </div>
+        <div class="three-card">
+            <div class="cardd one">
+                <div class="image-box1">
+                    <h3 class="card-heading">Basic</h3>
+                    <h1 class="card-price"><sup>$</sup><span class="big">49</span><sub>/ Mo</sub></h1>
+                </div>
+                <h3 class="choice"><i class="fas fa-check"></i> Feeding</h3>
+                <h3 class="choice"><i class="fas fa-check"></i> Boarding</h3>
+                <h3 class="choice"> Spa & Grooming</h3>
+                <h3 class="choice"> Veterinary Medicine</h3>
+                <a href="#" class="sign-up-now">Signup Now</a>
+            </div>
+            <div class="cardd two">
+                <div class="image-box2">
+                    <h3 class="card-heading">Standard</h3>
+                    <h1 class="card-price"><sup>$</sup><span class="big">99</span><sub>/ Mo</sub></h1>
+                </div>
+                <h3 class="choice"><i class="fas fa-check"></i> Feeding</h3>
+                <h3 class="choice"><i class="fas fa-check"></i> Boarding</h3>
+                <h3 class="choice"><i class="fas fa-check"></i> Spa & Grooming</h3>
+                <h3 class="choice"> Veterinary Medicine</h3>
+                <a href="#" class="sign-up-now">Signup Now</a>
+            </div>
+            <div class="cardd three">
+                <div class="image-box3">
+                    <h3 class="card-heading">Premium</h3>
+                    <h1 class="card-price"><sup>$</sup><span class="big">149</span><sub>/ Mo</sub></h1>
+                </div>
+                <h3 class="choice"><i class="fas fa-check"></i> Feeding</h3>
+                <h3 class="choice"><i class="fas fa-check"></i> Boarding</h3>
+                <h3 class="choice"><i class="fas fa-check"></i> Spa & Grooming</h3>
+                <h3 class="choice"><i class="fas fa-check"></i> Veterinary Medicine</h3>
+                <a href="#" class="sign-up-now">Signup Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TEAM MEMBER SECTION -->
+
+    <div class="team-member">
+        <div class="team-member-head">
+            <h4 class="green-heading">Team Member</h4>
+            <h1>Meet Our <span class="orange">Team Member</span></h1>
+        </div>
+        <div class="team-member-cards">
+            <div class="tm-card-one">
+                <div class="tm-img">
+                    <img src="./Images/girlwithcat1.jpg" alt="Girl with cat">
+                </div>
+                <div class="two-moving-parts">
+                    <div class="about-person">
+                        <h3 class="tm-name">Mollie Ross</h3>
+                        <p><i>Founder & CEO</i></p>
+                    </div>
+                    <div class="hidden-part">
+                        <div class="social-media-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tm-card-two">
+                <div class="tm-img">
+                    <img src="./Images/girlwithdog1.jpg" alt="Girl with dog">
+                </div>
+                <div class="two-moving-parts">
+                    <div class="about-person">
+                        <h3 class="tm-name">Jennifer Page</h5>
+                        <p><i>Chef Executive</i></p>
+                    </div>
+                    <div class="hidden-part">
+                        <div class="social-media-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tm-card-three">
+                <div class="tm-img">
+                    <img src="./Images/girlwithcat2.jpg" alt="Girl with cat">
+                </div>
+                <div class="two-moving-parts">
+                    <div class="about-person">
+                        <h3 class="tm-name">Kate Glover</h3>
+                        <p><i>Doctor</i></p>
+                    </div>
+                    <div class="hidden-part">
+                        <div class="social-media-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tm-card-four">
+                <div class="tm-img">
+                    <img src="./Images/girlwithdog2.jpg" alt="Girl with dog">
+                </div>
+                <div class="two-moving-parts">
+                    <div class="about-person">
+                        <h3 class="tm-name">Lilly Fry</h3>
+                        <p><i>Trainer</i></p>
+                    </div>
+                    <div class="hidden-part">
+                        <div class="social-media-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CLIENT SAYS SECTION -->
+
+    <div class="client-says">
+        <div class="client-says-head">
+            <h4 class="green-heading">Testimonial</h4>
+            <h1>Our Client <span class="orange">Says</span></h1>
+        </div>
+        <div class="cs-cards">
+            <div class="cs-card-one">
+                <div class="img-and-name">
+                    <img src="./Images/client1.jpg" alt="Client">
+                    <div class="names">
+                        <h3 class="c-name">Client Name</h3>
+                        <p><i>Profession</i></p>
+                    </div>
+                </div>
+                <p class="cs-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rerum expedita blanditiis repellendus vero, incidunt aut illum!</p>
+            </div>
+            <div class="cs-card-two">
+                <div class="img-and-name">
+                    <img src="./Images/client2.jpg" alt="Client">
+                    <div class="names">
+                        <h3 class="c-name">Client Name</h3>
+                        <p><i>Profession</i></p>
+                    </div>
+                </div>
+                <p class="cs-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rerum expedita blanditiis repellendus vero, incidunt aut illum!</p>
+            </div>
+            <div class="cs-card-three">
+                <div class="img-and-name">
+                    <img src="./Images/client3.jpg" alt="Client">
+                    <div class="names">
+                        <h3 class="c-name">Client Name</h3>
+                        <p><i>Profession</i></p>
+                    </div>
+                </div>
+                <p class="cs-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rerum expedita blanditiis repellendus vero, incidunt aut illum!</p>
+            </div>
+        </div>
+        <!-- <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div> -->
+    </div>
+
+    <!-- PET BLOG SECTION -->
+
+    <div class="pet-blog" id="pages">
+        <div class="pet-blog-head">
+            <h4 class="green-heading">Pet Blog</h4>
+            <h1><span class="orange">Updates</span> From Blog</h1>
+        </div>
+        <div class="pb-cards">
+            <div class="pb-card-one">
+                <div class="pb-img">
+                    <img src="./Images/blog1.jpg" alt="Blog">
+                </div>
+                <div class="text-sctn">
+                    <h3 class="pb-blog-name">Diam amet eos at no eos</h3>
+                    <div class="iconswith">
+                        <p><i class="fas fa-user"></i>Admin</p>
+                        <p><i class="fas fa-folder"></i>Web Design</p>
+                        <p><i class="fas fa-comments"></i>15</p>
+                    </div>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos, rebum sit vero stet justo</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="pb-card-two">
+                <div class="pb-img">
+                    <img src="./Images/blog2.jpg" alt="Blog">
+                </div>
+                <div class="text-sctn">
+                    <h3 class="pb-blog-name">Diam amet eos at no eos</h3>
+                    <div class="iconswith">
+                        <p><i class="fas fa-user"></i>Admin</p>
+                        <p><i class="fas fa-folder"></i>Web Design</p>
+                        <p><i class="fas fa-comments"></i>15</p>
+                    </div>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos, rebum sit vero stet justo</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="pb-card-three">
+                <div class="pb-img">
+                    <img src="./Images/blog3.jpg" alt="Blog">
+                </div>
+                <div class="text-sctn">
+                    <h3 class="pb-blog-name">Diam amet eos at no eos</h3>
+                    <div class="iconswith">
+                        <p><i class="fas fa-user"></i>Admin</p>
+                        <p><i class="fas fa-folder"></i>Web Design</p>
+                        <p><i class="fas fa-comments"></i>15</p>
+                    </div>
+                    <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos, rebum sit vero stet justo</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <footer id="contact">
+        <div class="footer-head">
+            <div class="site-name">
+                <p class="nm"><a href="#"><b><span class="orange">Pet</span>Lover</b></a></p>
+                <p class="txt">Ipsum amet sed vero et lorem stet eos ut, labore sed sed stet sea est ipsum ut. Volup amet ea sanct ipsum, dolore vero lorem no duo eirmod. Eirmod amet ipsum no ipsum lorem clita ut. Ut sed sit lorem ea lorem sed, amet stet sit sea ea diam tempor kasd kasd. Diam nonumy etsit tempor ut sed diam sed et ea</p>
+            </div>
+            <div class="right-flex">
+                <div class="contact">
+                    <h3>Get In Touch</h3>
+                    <p>123 Street, New York, USA</p>
+                    <p>+012 345 67890</p>
+                    <p>mail@domain.com</p>
+                    <div class="icn">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="links">
+                    <h3>Popular Links</h3>
+                    <ul class="link">
+                        <li><i class="fas fa-angle-right"></i><a href="#">Home</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">About Us</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">Our Services</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">Our Team</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <h3>Newsletter</h3>
+                    <form class="footer-form">
+											<label for="name"></label>
+                      <input type="text" id="name" placeholder="Your Name">
+											<label for="email"></label>
+                      <input type="email" id="email" placeholder="Your Email">
+                      <input type="submit" value="Submit Now">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <p>© <span>PetLover</span>. All Rights Reserved. Website created by
+                <a
+                	href="https://github.com/nurgulyunusovaa"
+                	class="github-page"
+                	title="My Github Page">Nurgul Yunusova</a></p>
+            <div class="contactss">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">FAQs</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
